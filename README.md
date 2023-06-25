@@ -17,9 +17,9 @@ EOF
 $ . ~/.bashrc  
 ```
 ```bash
-cd webrtc-1.0.0/ && dh_make -f ../webrtc-1.0.0.tar.gz -s -c mit -y && dpkg-buildpackage -us -uc     
+cd webrtc-1.0.0/ && dh_make -f ../webrtc-1.0.0.tar.gz -s -c mit -y   
 ```
-# Edit to debian/rule file 
+## Edit to debian/rule file 
 ```bash
 %:
 	dh $@
